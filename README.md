@@ -22,10 +22,11 @@ Technologies and Toolsets:
 - **React Axe and React A11y for accessibility** so that your site is awesome for everyone.
 
 TODO:
- - Analytics ( Lighthouse, Azure, AWS ) 
+[ ] Analytics ( Lighthouse, Azure, AWS ) 
 
-
-# ======================================= R E F E R E N C E S =======================================
+ =============================================
+###         R E F E R E N C E S 
+ =============================================
 
 ### Cloned from:
 ### gatsby-starter-typescript-deluxe 🌟 [source](https://github.com/gojutin/gatsby-starter-typescript-deluxe)

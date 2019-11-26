@@ -1,4 +1,4 @@
-# daspo-habro 
+# daspo-habro [![Vandalay Industries](https://img.shields.io/badge/MakeStuff-Build%20It!-blue)](https://daspo-habro1.netlify.com)
 ### [View Demo](https://daspo-habro1.netlify.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/357d0b0a-3be0-4199-88e5-ec8372311ebc/deploy-status)](https://app.netlify.com/sites/daspo-habro1/deploys)
 
 This project explores the posibilities of the "Distributed Cloud Framework" concept. 
@@ -9,7 +9,7 @@ This project explores the posibilities of the "Distributed Cloud Framework" conc
 - **ESLint, TSLint and Prettier)** 
 - **Storybook**
 
-Technologies and Toolsets:
+### Technologies and Toolsets:
 - **TypeScript** for type-safe code.
 - **Styled-Components** for all your styles.
 - **modern-css-reset** for a reset of sensible default styles.

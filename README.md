@@ -1,6 +1,6 @@
 # daspo-habro 
 ## Cloned from:
-## gatsby-starter-typescript-deluxe 🌟
+gatsby-starter-typescript-deluxe 🌟
 
 ### An opinionated starter library for creating React applications with Gatsby (v2) and TypeScript.
 

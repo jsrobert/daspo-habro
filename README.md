@@ -3,7 +3,7 @@
 
 This project explores the posibilities of the "Distributed Cloud Framework" concept. 
 
-- Quality Driven Development
+### Quality Driven Development
 - **TypeScript**
 - **Jest and React Testing library**
 - **ESLint, TSLint and Prettier)** 

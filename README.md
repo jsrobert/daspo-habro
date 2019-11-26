@@ -25,6 +25,7 @@ TODO:
  - Analytics ( Lighthouse, Azure, AWS ) 
 
 
+# ======================================= R E F E R E N C E S =======================================
 
 ### Cloned from:
 ### gatsby-starter-typescript-deluxe 🌟 [source](https://github.com/gojutin/gatsby-starter-typescript-deluxe)

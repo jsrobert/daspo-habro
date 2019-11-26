@@ -24,6 +24,8 @@ Technologies and Toolsets:
 TODO:
 [ ] Analytics ( Lighthouse, Azure, AWS ) 
 
+https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg
+
  =============================================
 ###         R E F E R E N C E S 
  =============================================

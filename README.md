@@ -1,6 +1,8 @@
 # daspo-habro [![Vandalay Industries](https://img.shields.io/badge/MakeStuff-Build%20It!-blue)](https://daspo-habro1.netlify.com)
 ### [View Demo](https://daspo-habro1.netlify.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/357d0b0a-3be0-4199-88e5-ec8372311ebc/deploy-status)](https://app.netlify.com/sites/daspo-habro1/deploys)
 
+![Codetally](https://img.shields.io/codetally/jsrobert/daspo-habro?label=fo-shizzle)
+
 This project explores the posibilities of the "Distributed Cloud Framework" concept. 
 
 ### Quality Driven Development

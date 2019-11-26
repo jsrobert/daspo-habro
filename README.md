@@ -1,9 +1,33 @@
 # daspo-habro 
 ### [View Demo](https://daspo-habro1.netlify.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/357d0b0a-3be0-4199-88e5-ec8372311ebc/deploy-status)](https://app.netlify.com/sites/daspo-habro1/deploys)
 
+This project explores the posibilities of the "Distributed Cloud Framework" concept. 
+
+- Quality Driven Development
+- **TypeScript**
+- **Jest and React Testing library**
+- **ESLint, TSLint and Prettier)** 
+- **Storybook**
+
+Technologies and Toolsets:
+- **TypeScript** for type-safe code.
+- **Styled-Components** for all your styles.
+- **modern-css-reset** for a reset of sensible default styles.
+- **Framer Motion** for awesome animations.
+- **gatsby-image and gatsby-transformer-sharp** for optimized images.
+- **gatsby-plugin-manifest / SEO component** for an SEO-friendly PWA.
+- **Storybook with add-ons** for showing off your awesome components.
+- **Jest and React Testing library** for snapshots and unit tests.
+- **ESLint (with TSLint and Prettier)** to make your code look its best.
+- **React Axe and React A11y for accessibility** so that your site is awesome for everyone.
+
+TODO:
+ - Analytics ( Lighthouse, Azure, AWS ) 
+
+
 
 ### Cloned from:
-### gatsby-starter-typescript-deluxe 🌟 [srouce](https://github.com/gojutin/gatsby-starter-typescript-deluxe)
+### gatsby-starter-typescript-deluxe 🌟 [source](https://github.com/gojutin/gatsby-starter-typescript-deluxe)
 ### An opinionated starter library for creating React applications with Gatsby (v2) and TypeScript.
 
 This starter library is pre-configured with the following integrations:

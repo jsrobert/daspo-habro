@@ -1,8 +1,8 @@
-const siteTitle = "gatsby-starter-typescript-deluxe";
+const siteTitle = "dasbo-habro";
 const siteDescription =
   "A Gatsby starter with TypeScript, Storybook, Styled Components, Framer Motion, Jest, and more.";
 const siteAuthor = "@gojutin";
-const siteUrl = "https://gatsby-starter-typescript-deluxe.netlify.com";
+const siteUrl = "https://dasbo-habro.netlify.com";
 const siteImage = `${siteUrl}/icons/icon_512x512.png`;
 const siteKeywords = ["gatsby", "typescript", "starter", "javascript", "react"];
 

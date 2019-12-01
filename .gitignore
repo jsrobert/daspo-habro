@@ -68,3 +68,6 @@ public
 yarn.lock
 package-lock.json
 package-lock.json
+
+# storybook folders
+storybook-static

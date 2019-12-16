@@ -1,5 +1,6 @@
 /// <reference types="react/index.d.ts"/>
 /// <reference types="styled-components/cssprop" />
+/// <reference types="react/index" />
 
 import "styled-components";
 

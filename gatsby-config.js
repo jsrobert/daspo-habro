@@ -17,7 +17,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/images`,
         name: "images",
@@ -34,21 +34,21 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-styled-components`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    "gatsby-plugin-styled-components",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
-    `gatsby-plugin-typescript`,
+    "gatsby-plugin-typescript",
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: "gatsby-plugin-manifest",
       options: {
         name: siteTitle,
         short_name: siteTitle,
         description: siteDescription,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
+        start_url: "/",
+        background_color: "#663399",
+        theme_color: "#663399",
+        display: "minimal-ui",
         icon: "src/images/icon.png",
         icons: [
           {
@@ -64,6 +64,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-offline`,
+    "gatsby-plugin-offline",
   ],
 };

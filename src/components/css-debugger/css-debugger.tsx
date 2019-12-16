@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, ComponentProps } from "react";
 import styled, { createGlobalStyle } from "styled-components";
 import { motion } from "framer-motion";
 
@@ -20,7 +20,7 @@ const ToggleDebugButton = styled(motion.button).attrs(() => ({
   z-index: 5000;
 `;
 
-const getDebugStyles = ({ debug, color }: ComponentProps): string => {
+const getDebugStyles = ({ debug, color }: ComponentProps<any>): string => {
   if (!debug) {
     return "";
   }

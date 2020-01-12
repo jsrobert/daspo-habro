@@ -5,7 +5,8 @@ type fontSize = {
     loader: number,
 }
 
-export const getValues = (size: string): fontSize => {
+export class FontManager {
+  static getFontSize = (size: string): fontSize => {
     switch (size) {
         case "xs":
             return {
@@ -43,4 +44,5 @@ export const getValues = (size: string): fontSize => {
                 loader: 30
             };
     }
-  };
+  }
+};

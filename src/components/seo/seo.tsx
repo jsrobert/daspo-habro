@@ -118,7 +118,18 @@ const SEO: React.FC<SEOProps> = props => {
       rel: "apple-touch-icon",
       href: "icons/apple-touch-icon.png",
     },
+    {
+      rel:"stylesheet",
+      media:"screen",
+      href:"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.css",
+    },
+    {
+      rel:"stylesheet",
+      media:"screen",
+      href:"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css",
+    }
   ];
+
   return (
     <Helmet
       htmlAttributes={{ lang: "en" }}

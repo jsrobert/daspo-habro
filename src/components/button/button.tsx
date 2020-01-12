@@ -1,20 +1,19 @@
 import * as React from "react";
 import styled from "styled-components";
 import { getValues } from "../common";
-import { ImpulseSpinner } from "./Impulse";
+//import { ImpulseSpinner } from "../impulse/impulse";
 
-
-// const Button = styled.button`
-//   height: 30px;
-//   min-width: 100px;
-//   border: none;
-//   border-radius: 5px;
-//   font-size: 16px;
-//   cursor: pointer;
-//   :disabled {
-//     background: lightgray;
-//   }
-// `;
+const SpinnerButton = styled.button`
+  height: 30px;
+  min-width: 100px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  :disabled {
+    background: lightgray;
+  }
+`;
 
 // export { Button };
 
@@ -22,13 +21,14 @@ import { ImpulseSpinner } from "./Impulse";
 // import { ImpulseSpinner } from "./Impulse";
 // import * as React from "react";
 
-const Spinner = ({ size }) => (
-  <ImpulseSpinner
-    size={size}
-    loading={true}
-    frontColor="#FF00FB"
-    backColor="#aa00a7"
-  />
+const Spinner = ({ size }: any) => (
+  <SpinnerButton />
+  // <ImpulseSpinner
+  //   size={size}
+  //   loading={true}
+  //   frontColor="#FF00FB"
+  //   backColor="#aa00a7"
+  // />
 );
 
 interface ButtonProps {

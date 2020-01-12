@@ -1,1 +1,1 @@
-export { getValues } from "./getValues";
+export { FontManager } from "./FontManager";

@@ -1,16 +1,23 @@
 import React from "react";
 import { Layout } from "../components/layout";
 import { SEO } from "../components/seo";
-import { Code } from "../components/code";
+// import { Code } from "../components/code";
 import { Link } from "../components/link";
+import { DataGrid } from "../components/datagrid"
 
-const command =
-  "gatsby new my-app https://github.com/gojutin/gatsby-starter-typescript-deluxe";
+// const command =
+//   "gatsby new my-app https://github.com/gojutin/gatsby-starter-typescript-deluxe";
 
 const App = () => (
+  // <Layout>
+  //   <SEO />
+  //   <Code>{command}</Code>
+  //   <Link to="/about">About</Link>
+  //   <DataGrid />
+  // </Layout>
   <Layout>
     <SEO />
-    <Code>{command}</Code>
+    <DataGrid />
     <Link to="/about">About</Link>
   </Layout>
 );

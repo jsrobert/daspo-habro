@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { getValues } from "../common";
+import { FontManager } from "../common";
 
 const Input = styled.input<{ size?: "xs" | "sm" | "md" | "lg" | "xl" }>`
-  height: ${props => getValues(props.size || "md").minHeight};
+  height: ${props => FontManager.getFontSize(props.size || "md").minHeight};
   border-radius: 0.25rem;
   outline: none;
   border: none;
@@ -10,7 +10,7 @@ const Input = styled.input<{ size?: "xs" | "sm" | "md" | "lg" | "xl" }>`
   border: 2px solid white;
   border-color: gray;
   transition: border-color 0.25s;
-  font-size: ${props => getValues(props.size || "md").fontSize};
+  font-size: ${props => FontManager.getFontSize(props.size || "md").fontSize};
   width: 100%;
   :focus {
     border-color: blue;
